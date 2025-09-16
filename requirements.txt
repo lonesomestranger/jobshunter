@@ -1,0 +1,14 @@
+aiogram
+sqlalchemy
+aiosqlite
+alembic
+asyncpg
+apscheduler
+curl-cffi
+beautifulsoup4
+lxml
+pydantic-settings
+pydantic
+greenlet
+ddgs
+markdownify

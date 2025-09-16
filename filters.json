@@ -1,0 +1,262 @@
+{
+	"rabota_by": {
+		"experience": {
+			"param_name": "experience",
+			"label": "Опыт работы",
+			"type": "single_choice",
+			"options": [
+				{ "value": "noExperience", "label": "Без опыта" },
+				{ "value": "between1And3", "label": "От 1 года до 3 лет" },
+				{ "value": "between3And6", "label": "От 3 до 6 лет" },
+				{ "value": "moreThan6", "label": "Более 6 лет" }
+			]
+		},
+		"education": {
+			"param_name": "education",
+			"label": "Образование",
+			"type": "multiple_choice",
+			"options": [
+				{
+					"value": "not_required_or_not_specified",
+					"label": "Не требуется или не указано"
+				},
+				{ "value": "higher", "label": "Высшее" },
+				{ "value": "special_secondary", "label": "Среднее специальное" }
+			]
+		},
+		"employment_form": {
+			"param_name": "employment_form",
+			"label": "Тип занятости",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "FULL", "label": "Полная занятость" },
+				{ "value": "PART", "label": "Частичная занятость" },
+				{ "value": "PROJECT", "label": "Проектная работа" },
+				{ "value": "FLY_IN_FLY_OUT", "label": "Вахтовый метод" }
+			]
+		},
+		"work_schedule": {
+			"param_name": "work_schedule_by_days",
+			"label": "График работы",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "FLEXIBLE", "label": "Гибкий график" },
+				{ "value": "FIVE_ON_TWO_OFF", "label": "5/2" },
+				{ "value": "SIX_ON_ONE_OFF", "label": "6/1" },
+				{ "value": "TWO_ON_TWO_OFF", "label": "2/2" },
+				{ "value": "THREE_ON_THREE_OFF", "label": "3/3" },
+				{ "value": "FOUR_ON_FOUR_OFF", "label": "4/4" },
+				{ "value": "WEEKEND", "label": "График выходного дня" }
+			]
+		},
+		"work_format": {
+			"param_name": "work_format",
+			"label": "Формат работы",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "ON_SITE", "label": "На территории работодателя" },
+				{ "value": "REMOTE", "label": "Удаленная работа" },
+				{ "value": "HYBRID", "label": "Гибридный формат" },
+				{ "value": "FIELD_WORK", "label": "Разъездная работа" }
+			]
+		},
+		"labels": {
+			"param_name": "label",
+			"label": "Особенности вакансии",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "internship", "label": "Стажировка" },
+				{ "value": "night_shifts", "label": "Работа в ночное время" },
+				{
+					"value": "not_from_agency",
+					"label": "Только от прямых работодателей"
+				},
+				{
+					"value": "with_address",
+					"label": "Только с указанным адресом"
+				},
+				{
+					"value": "accept_handicapped",
+					"label": "Доступно для людей с инвалидностью"
+				}
+			]
+		},
+		"accept_temporary": {
+			"param_name": "accept_temporary",
+			"label": "Готовность к временной работе",
+			"type": "boolean",
+			"options": [{ "value": "true", "label": "Да" }]
+		},
+		"salary": {
+			"param_name": "salary",
+			"label": "Зарплата от (в Br)",
+			"type": "text_input",
+			"options": []
+		}
+	},
+	"praca_by": {
+		"c_rad": {
+			"label": "Регион",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "Минск", "label": "Минск" },
+				{ "value": "Брест", "label": "Брест" },
+				{ "value": "Витебск", "label": "Витебск" },
+				{ "value": "Гомель", "label": "Гомель" },
+				{ "value": "Гродно", "label": "Гродно" },
+				{ "value": "Могилёв", "label": "Могилёв" }
+			]
+		},
+		"salary_fr_byr": {
+			"label": "Зарплата от (BYN)",
+			"type": "text_input"
+		},
+		"nature": {
+			"label": "Характер работы",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "office", "label": "На территории работодателя" },
+				{ "value": "travel", "label": "Разъездной" },
+				{ "value": "remote", "label": "Удаленная работа" }
+			]
+		},
+		"schedule": {
+			"label": "График работы",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "full", "label": "Полный рабочий день" },
+				{ "value": "exchange", "label": "Сменный" },
+				{ "value": "flexible", "label": "Гибкий" },
+				{ "value": "shift", "label": "Вахтовый метод" }
+			]
+		},
+		"occupation": {
+			"label": "Занятость",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "full", "label": "Полная" },
+				{ "value": "part", "label": "Частичная" },
+				{ "value": "once", "label": "Разовая / Подработка" },
+				{ "value": "intern", "label": "Стажировка" },
+				{ "value": "project", "label": "Проектная работа" }
+			]
+		},
+		"experience_vac": {
+			"label": "Опыт работы",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "no-matter", "label": "Без опыта" },
+				{ "value": "from-1", "label": "До 1 года" },
+				{ "value": "from-2", "label": "1-3 года" },
+				{ "value": "from-3", "label": "3-5 лет" },
+				{ "value": "from-5", "label": "Более 5 лет" }
+			]
+		},
+		"availability": {
+			"label": "Доступно для",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "student", "label": "Студентов" },
+				{ "value": "teenager", "label": "Лиц моложе 18 лет" }
+			]
+		}
+	},
+	"habr_career": {
+		"locations[]": {
+			"label": "Регион",
+			"options": [["ct_468", "Беларусь"]]
+		},
+		"employment_type[]": {
+			"label": "Тип занятости",
+			"options": [
+				["full_time", "Полная"],
+				["part_time", "Частичная"]
+			]
+		},
+		"remote": { "label": "Удаленная работа", "options": [["true", "Да"]] },
+		"qid[]": {
+			"label": "Квалификация",
+			"options": [
+				["1", "Intern"],
+				["3", "Junior"],
+				["4", "Middle"],
+				["5", "Senior"],
+				["6", "Lead"]
+			]
+		},
+		"salary": { "label": "Зарплата от (USD)" }
+	},
+	"belmeta_com": {
+		"l": {
+			"label": "Регион",
+			"type": "single_choice",
+			"options": [
+				{ "value": "Минск", "label": "Минск" },
+				{ "value": "Гомель", "label": "Гомель" },
+				{ "value": "Брест", "label": "Брест" },
+				{ "value": "Витебск", "label": "Витебск" },
+				{ "value": "Гродно", "label": "Гродно" },
+				{ "value": "Могилев", "label": "Могилев" }
+			]
+		},
+		"sf": {
+			"label": "Зарплата от",
+			"type": "single_choice",
+			"options": [
+				{ "value": "200", "label": "200 руб" },
+				{ "value": "400", "label": "400 руб" },
+				{ "value": "600", "label": "600 руб" },
+				{ "value": "800", "label": "800 руб" },
+				{ "value": "1000", "label": "1 000 руб" },
+				{ "value": "1500", "label": "1 500 руб" },
+				{ "value": "2000", "label": "2 000 руб" }
+			]
+		},
+		"st": {
+			"label": "Зарплата до",
+			"type": "single_choice",
+			"options": [
+				{ "value": "200", "label": "200 руб" },
+				{ "value": "400", "label": "400 руб" },
+				{ "value": "600", "label": "600 руб" },
+				{ "value": "800", "label": "800 руб" },
+				{ "value": "1000", "label": "1 000 руб" },
+				{ "value": "1500", "label": "1 500 руб" },
+				{ "value": "2000", "label": "2 000 руб" }
+			]
+		},
+		"df": {
+			"label": "Дата размещения",
+			"type": "single_choice",
+			"options": [
+				{ "value": "1", "label": "24 часа" },
+				{ "value": "3", "label": "3 дня" },
+				{ "value": "7", "label": "7 дней" }
+			]
+		},
+		"jt": {
+			"label": "Тип вакансии",
+			"type": "multiple_choice",
+			"options": [
+				{ "value": "fulltime", "label": "Полная занятость" },
+				{ "value": "parttime", "label": "Частичная занятость" },
+				{ "value": "temporary", "label": "Временная работа" },
+				{ "value": "fifo", "label": "Вахта" },
+				{ "value": "remote", "label": "Удаленная работа" },
+				{ "value": "internship", "label": "Стажировка" },
+				{ "value": "shift", "label": "Сменный график" },
+				{ "value": "no_experience", "label": "Без опыта" },
+				{ "value": "with_training", "label": "С обучением" },
+				{ "value": "for_students", "label": "Для студентов" }
+			]
+		},
+		"rbet": {
+			"label": "Работодатель",
+			"type": "single_choice",
+			"options": [
+				{ "value": "c", "label": "Прямые работодатели" },
+				{ "value": "a", "label": "Агентства" }
+			]
+		}
+	}
+}
